@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@RequestMapping("/default/cadastro")
+@RequestMapping("/default/register")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class CadController {
 
