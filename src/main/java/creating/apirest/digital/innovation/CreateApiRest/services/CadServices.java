@@ -5,7 +5,7 @@ import creating.apirest.digital.innovation.CreateApiRest.dto.mapper.CadMapper;
 import creating.apirest.digital.innovation.CreateApiRest.dto.request.PessoaDTO;
 import creating.apirest.digital.innovation.CreateApiRest.dto.response.MessageResponseDTO;
 import creating.apirest.digital.innovation.CreateApiRest.entidades.CadastroPessoa;
-import creating.apirest.digital.innovation.CreateApiRest.excepition.CadNotFoundException;
+import creating.apirest.digital.innovation.CreateApiRest.exception.CadNotFoundException;
 import creating.apirest.digital.innovation.CreateApiRest.repository.CadRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,7 +3,7 @@ package creating.apirest.digital.innovation.CreateApiRest.controller;
 
 import creating.apirest.digital.innovation.CreateApiRest.dto.request.PessoaDTO;
 import creating.apirest.digital.innovation.CreateApiRest.dto.response.MessageResponseDTO;
-import creating.apirest.digital.innovation.CreateApiRest.excepition.CadNotFoundException;
+import creating.apirest.digital.innovation.CreateApiRest.exception.CadNotFoundException;
 import creating.apirest.digital.innovation.CreateApiRest.services.CadServices;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

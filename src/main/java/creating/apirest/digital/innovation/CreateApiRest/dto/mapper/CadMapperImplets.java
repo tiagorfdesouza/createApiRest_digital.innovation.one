@@ -37,7 +37,7 @@ public class CadMapperImplets implements CadMapper {
         cadastroPessoa.setNome(dto.getNome());
         cadastroPessoa.setSobreNome(dto.getSobreNome());
         cadastroPessoa.setCpf(dto.getCpf());
-        cadastroPessoa.setPhone(phoneDTOListToPhoneList(dto.getPhones()));
+        cadastroPessoa.setPhones(phoneDTOListToPhoneList(dto.getPhones()));
 
         return cadastroPessoa;
     }
@@ -57,7 +57,7 @@ public class CadMapperImplets implements CadMapper {
         if (dto.getBirthday() != null) {
             pessoaDTO.setBirthday(DateTimeFormatter.ISO_LOCAL_DATE.format(dto.getBirthday()));
         }
-        pessoaDTO.setPhones(phoneListToPhoneDTOList(dto.getPhone()));
+        pessoaDTO.setPhones(phoneListToPhoneDTOList(dto.getPhones()));
 
         return pessoaDTO;
     }
